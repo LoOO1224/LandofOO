@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ko" class="scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wooyoung Cheon, a growing game developer building playable prototypes, Unity systems, and player-first game experiences."
+    />
+    <meta property="og:title" content="Wooyoung Cheon - Game Developer" />
+    <meta
+      property="og:description"
+      content="A personal game developer card where projects, learning notes, and playable growth come together."
+    />
+    <meta property="og:url" content="https://wooyoungcheon.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wooyoung Cheon - Game Developer" />
+    <meta
+      name="keywords"
+      content="Wooyoung Cheon, Wooyoung_Cheon, Wooyoung Cheon portfolio, Wooyoung Cheon game developer, wooyoungcheon, Unity developer, gameplay programmer"
+    />
+    <title>Wooyoung Cheon - Game Developer</title>
+    <link rel="canonical" href="https://wooyoungcheon.vercel.app/" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="styles.css?v=28" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Wooyoung Cheon",
+        "url": "https://wooyoungcheon.vercel.app/",
+        "jobTitle": "Game Developer",
+        "description": "Wooyoung Cheon is a growing gameplay programmer focused on Unity, playable prototypes, player-first game feel, and game development growth logs.",
+        "knowsAbout": [
+          "Unity",
+          "C#",
+          "Gameplay Programming",
+          "Game Prototyping",
+          "Game Development"
+        ],
+        "sameAs": [
+          "https://github.com/",
+          "https://www.linkedin.com/in/wooyoung-cheon-98369b411/"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Wooyoung Cheon home">
+        <img src="assets/avatar.svg" alt="" class="brand__avatar" data-profile-image />
+        <span class="brand__name">Wooyoung Cheon</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main sections">
+        <a href="#projects" data-i18n="navProjects">경력 및 프로젝트</a>
+        <a href="https://app.notion.com/p/3820703e91d781f9a97dcfaccd8dd6b2" target="_blank" rel="noreferrer" data-i18n="navBlog">블로그</a>
+        <a href="#activities" data-i18n="navActivities">대외활동</a>
+        <a href="https://www.linkedin.com/in/wooyoung-cheon-98369b411/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <span class="icon-badge icon-badge--linkedin">in</span>
+          LinkedIn
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <span class="icon-badge icon-badge--github">GH</span>
+          GitHub
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme" data-theme-toggle>
+          <span class="theme-toggle__sun"></span>
+          <span class="theme-toggle__moon"></span>
+        </button>
+        <div class="language-tabs" role="group" aria-label="Language">
+          <button class="language-tabs__item is-active" type="button" data-lang="ko">한</button>
+          <button class="language-tabs__item" type="button" data-lang="en">EN</button>
+          <button class="language-tabs__item" type="button" data-lang="zh">中</button>
+          <button class="language-tabs__item" type="button" data-lang="ja">日</button>
+        </div>
+        <a class="contact-pill" href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <div class="role-chip">
+              <img src="assets/avatar.svg" alt="" data-profile-image />
+              <span data-i18n="role">Core Gameplay Developer in Progress</span>
+            </div>
+
+            <h1 id="hero-title">
+              <span>Wooyoung</span>
+              <span>Cheon</span>
+              <span>
+                Make It
+                <strong class="cycling-word" data-cycling-word data-word-tone="playable">Playable</strong>
+              </span>
+            </h1>
+
+            <ul class="hero-points" aria-label="Developer keywords">
+              <li data-i18n="pointOne">플레이어 중심</li>
+              <li data-i18n="pointTwo">빠른 프로토타이핑</li>
+              <li data-i18n="pointThree">끝까지 완성하는 실행력</li>
+            </ul>
+
+            <p class="hero__description" data-i18n="heroDescription">
+              하나씩 탄탄히 쌓고, 코어 게이머의 감각으로 재미를 꾸준히 다듬습니다.
+            </p>
+
+            <div class="cta-grid" aria-label="Profile links">
+              <a class="button button--primary" href="#projects" data-i18n="ctaProjects">경력 및 프로젝트</a>
+              <a class="button" href="https://www.linkedin.com/in/wooyoung-cheon-98369b411/" target="_blank" rel="noreferrer">
+                <span class="icon-badge icon-badge--linkedin">in</span>
+                LinkedIn
+              </a>
+              <a class="button" href="https://github.com/" target="_blank" rel="noreferrer">
+                <span class="icon-badge icon-badge--github">GH</span>
+                GitHub
+              </a>
+              <a class="button button--cyan" href="#resume" data-i18n="ctaResume">이력서</a>
+              <a class="button" href="#contact" data-i18n="ctaContact">Contact</a>
+            </div>
+          </div>
+
+          <div class="hero__visual" aria-label="Game developer workspace illustration">
+            <img class="hero__workstation" src="assets/workspace-final-one-layer-warm-right-clean-desk-reactive.webp?v=28" alt="Wide game developer workspace with desktop PC, aquarium, hamster cage, notebook, tablet, and neon monitors" />
+            <div class="hero__character-wrap" aria-label="Lucky Ditto profile character">
+              <span class="hero__character-shadow" aria-hidden="true"></span>
+              <img class="hero__character" src="assets/lucky-ditto-no-eyes.png" alt="" />
+              <span class="character-eye character-eye--left" aria-hidden="true"></span>
+              <span class="character-eye character-eye--right" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="wave" aria-hidden="true">
+          <svg viewBox="0 0 1440 140" preserveAspectRatio="none">
+            <path d="M0 74 C190 30 302 124 486 92 C649 64 763 12 946 62 C1128 112 1259 130 1440 71 L1440 140 L0 140 Z" />
+          </svg>
+        </div>
+      </section>
+
+      <section class="section section--compact" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Build Archive</p>
+          <h2 id="projects-title" data-i18n="projectsTitle">경력 및 프로젝트</h2>
+          <p data-i18n="projectsLead">
+            아직 경력보다 중요한 것은 직접 만든 결과물입니다. 작은 프로토타입부터 완성 가능한 흐름을 쌓아갑니다.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>Unity</span>
+              <span>C#</span>
+              <span>Prototype</span>
+            </div>
+            <h3 data-i18n="projectOneTitle">Quest Prototype</h3>
+            <p data-i18n="projectOneText">
+              이동, 상호작용, UI 흐름을 분리된 컴포넌트로 구성하는 연습용 게임 프로토타입입니다.
+            </p>
+            <a href="https://github.com/" target="_blank" rel="noreferrer" data-i18n="projectLink">GitHub에서 보기</a>
+          </article>
+
+          <article class="project-card project-card--accent project-card--notion">
+            <div class="project-card__meta">
+              <span>Notion</span>
+              <span>Game Feel</span>
+              <span>Log</span>
+            </div>
+            <h3 data-i18n="projectTwoTitle">Growth Log</h3>
+            <p data-i18n="projectTwoText">
+              개발하면서 배운 구조, 실수, 개선점을 기록해 다음 프로젝트의 기준으로 남깁니다.
+            </p>
+            <a href="https://app.notion.com/p/3820703e91d781f9a97dcfaccd8dd6b2" target="_blank" rel="noreferrer" data-i18n="projectTwoLink">Notion 기록으로 이동</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span>Playable</span>
+              <span>Itch.io</span>
+              <span>Coming</span>
+            </div>
+            <h3 data-i18n="projectThreeTitle">Playable Lab</h3>
+            <p data-i18n="projectThreeText">
+              플레이 가능한 빌드를 모으는 공간입니다. 배포 링크가 생길 때마다 이곳에서 바로 연결합니다.
+            </p>
+            <a href="#contact" data-i18n="projectThreeLink">업데이트 예정</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="log" aria-labelledby="log-title">
+        <div class="section-heading section-heading--left">
+          <p class="eyebrow">Quest Log</p>
+          <h2 id="log-title" data-i18n="logTitle">블로그와 성장 기록</h2>
+          <p data-i18n="logLead">
+            완성된 결과만이 아니라, 어떤 문제를 만나고 어떻게 고쳤는지를 기록하는 개발자가 목표입니다.
+          </p>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <h3 data-i18n="logOneTitle">Unity 구조 잡기</h3>
+            <p data-i18n="logOneText">Controller는 흐름만, 오브젝트는 자기 역할 컴포넌트로 움직이게 만드는 연습.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3 data-i18n="logTwoTitle">데이터 드리븐 설계</h3>
+            <p data-i18n="logTwoText">Static Data와 Instance Data를 분리해서 유지보수 가능한 구조를 익히는 중.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3 data-i18n="logThreeTitle">플레이 테스트 루프</h3>
+            <p data-i18n="logThreeText">직접 플레이하고, 불편한 지점을 기록하고, 작은 단위로 개선합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="activities" aria-labelledby="activities-title">
+        <div class="section-heading">
+          <p class="eyebrow">Outside The Editor</p>
+          <h2 id="activities-title" data-i18n="activitiesTitle">대외활동</h2>
+          <p data-i18n="activitiesLead">
+            스터디, 게임잼, 팀 프로젝트, 발표 경험을 모아 개발자로서의 방향성을 보여주는 공간입니다.
+          </p>
+        </div>
+        <div class="activity-strip">
+          <span>Game Jam</span>
+          <span>Unity Study</span>
+          <span>Team Project</span>
+          <span>Devlog</span>
+          <span>Prototype Review</span>
+        </div>
+      </section>
+
+      <section class="section resume-panel" id="resume" aria-labelledby="resume-title">
+        <div>
+          <p class="eyebrow">One Page Card</p>
+          <h2 id="resume-title" data-i18n="resumeTitle">전자 명함으로 쓰기 좋은 구조</h2>
+          <p data-i18n="resumeLead">
+            이 사이트 주소 하나로 GitHub, 프로젝트, 개발 기록, 연락처를 모두 연결합니다.
+          </p>
+        </div>
+        <a class="button button--primary" href="#contact" data-i18n="resumeButton">연락하기</a>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact Portal</p>
+          <h2 id="contact-title" data-i18n="contactTitle">함께 만들 이야기가 있다면</h2>
+          <p data-i18n="contactLead">
+            프로젝트 제안, 스터디, 피드백, 협업 이야기를 환영합니다.
+          </p>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:wooyoungcheon@example.com">wooyoungcheon@example.com</a>
+          <button type="button" data-copy-email data-i18n="copyEmail">이메일 복사</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Wooyoung Cheon</span>
+      <span data-i18n="footerText">Built as a growing game developer card.</span>
+    </footer>
+
+    <script src="script.js?v=28"></script>
+  </body>
+</html>

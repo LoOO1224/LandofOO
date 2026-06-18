@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wooyoungcheon.vercel.app/sitemap.xml
