@@ -364,6 +364,7 @@ h1 strong,
 .cycling-word {
   position: relative;
   display: inline-block;
+  white-space: nowrap;
   color: var(--word-color, var(--lime));
   font-style: normal;
   min-width: 4.85em;
