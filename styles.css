@@ -355,6 +355,11 @@ h1 span {
   display: block;
 }
 
+.hero-name-line {
+  white-space: nowrap;
+  font-size: clamp(2.35rem, 10.2vw, 1em);
+}
+
 h1 strong,
 .cycling-word {
   position: relative;
